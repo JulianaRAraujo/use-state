@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.icone{
+  height: 15vmin;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffa500;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +38,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+ul{
+  list-style-type: none;
+  text-align: left;
+  color: black;
+
 }
